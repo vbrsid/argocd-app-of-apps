@@ -27,6 +27,10 @@ kubectl create -f argo-ingress.yaml
 
 The root application points to a directory (it could be another repo also) consisting of other 'Applications'.
 
+
+![](images/app-of-apps.svg)
+
+
 Deploy the root 'Application':
 
 ```
