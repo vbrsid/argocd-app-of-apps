@@ -42,3 +42,6 @@ kubectl create -f root-app.yaml
 Go to ArgoCD console and you should see the root-app there. Click on 'Sync' and you should see the 'app-one' and 'app-two' Applications. You can 'Sync' the individual apps for the final deployements to get loaded into the Cluster.
 
 You can add more 'Applications' into the 'apps' folder to see them picked-up by ArgoCD automatically. This would be helpful if you have an app with a bunch of micro-services and the number of micro-services keep increasing over a period of time. All we need to do is add hte new micro-service to the list of 'Applications'. 
+
+
+![](images/argocd-console.png)
